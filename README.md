@@ -1,69 +1,87 @@
-# Code status:
+# UniCORE.MariaDB
 
-* [![Appveyor CI status](https://ci.appveyor.com/api/projects/status/4u6pexmtpuf8jq66?svg=true)](https://ci.appveyor.com/project/rasmushoj/server) ci.appveyor.com
+**SCAFFOLD-ANCHOR repository — initial scaffold 2026-06-04.**
 
-## MariaDB: The innovative open source database
+Full scaffolding, upstream-fork integration, and source-code work all pending a fresh dedicated kickoff arc. This initial commit exists to lock the repository's identity, licence position, and place in the UniCORE Sanity Check fleet so the work cannot be forgotten.
 
-MariaDB was designed as a drop-in replacement for MySQL(R) with more 
-features, new storage engines, fewer bugs, and better performance.
+Author: **Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom.**
+First commit: **2026-06-04 17:45 UTC.**
 
-MariaDB is brought to you by the MariaDB Foundation and the MariaDB Corporation.
-Please read the CREDITS file for details about the MariaDB Foundation,
-and who is developing MariaDB.
+---
 
-MariaDB is developed by many of the original developers of MySQL who
-now work for the MariaDB Corporation, the MariaDB Foundation and by
-many people in the community.
+## What this repository is
 
-MySQL, which is the base of MariaDB, is a product and trademark of Oracle
-Corporation, Inc. For a list of developers and other contributors,
-see the Credits appendix.  You can also run 'SHOW authors' to get a
-list of active contributors.
+`bryanunitek/UniCORE.MariaDB` is the **MariaDB** family member: On-prem-deployment-shape public gift surface. Documentation today; source code at certification.
 
-A description of the MariaDB project and a manual can be found at:
+**Family purpose:** Open-source MySQL-compatible database (MySQL community fork) — legacy integration support for UniCORE.Law.
 
-https://mariadb.org
+---
 
-https://mariadb.com/kb/en/
+## Upstream
 
-https://mariadb.com/kb/en/mariadb-vs-mysql-features/
+- **Upstream project:** https://github.com/MariaDB/server
+- **Upstream licence:** GPL-2.0
+- **Our relationship:** Fork-and-extend. Upstream codebase is consumed verbatim under its original licence; our additions sit on top under the same copyleft licence (code) and CC BY 4.0 (docs).
 
-https://mariadb.com/kb/en/mariadb-versus-mysql-compatibility/
+The merge discipline that governs how this repository absorbs upstream changes is documented in [`UPSTREAM-MERGE-DISCIPLINE.md`](UPSTREAM-MERGE-DISCIPLINE.md).
 
-https://mariadb.com/kb/en/new-and-old-releases/
+---
 
-# Getting the code, building it and testing it
+## Platforms
 
-Refer to the following guide: https://mariadb.org/get-involved/getting-started-for-developers/get-code-build-test/
-which outlines how to build the source code correctly and run the MariaDB testing framework,
-as well as which branch to target for your contributions.
+Windows · Linux · macOS · iOS · Android
 
-# Help
+---
 
-More help is available from the Maria Discuss mailing list
-https://lists.mariadb.org/postorius/lists/discuss.lists.mariadb.org/ and MariaDB's Zulip
-instance, https://mariadb.zulipchat.com/
+## Family — the four-repo pattern
 
-# Licensing
+UniCORE.MariaDB is published as a **four-repo family**:
 
-***************************************************************************
+- `bryanunitek/UniCORE.MariaDB` — public on-prem-deployment-shape gift surface ← **this repo**
+- `bryanunitek/UniSaaS.UniCORE.MariaDB` — public SaaS-deployment-shape gift surface
+- `bryanunitek/UniCORE.MariaDB-Claw` (private) — on-prem-shape working repository
+- `bryanunitek/UniSaaS.UniCORE.MariaDB-Claw` (private) — SaaS-shape working repository
 
-MariaDB is specifically available only under version 2 of the GNU
-General Public License (GPLv2). (I.e. Without the "any later version"
-clause.) This is inherited from MySQL. Please see the README file in
-the MySQL distribution for more information.
+---
 
-License information can be found in the COPYING file. Third party
-license information can be found in the THIRDPARTY file.
+## Status
 
-***************************************************************************
+**SCAFFOLD-ANCHOR** as of 2026-06-04. See [`STATUS.md`](STATUS.md) for the full status breakdown.
 
-# Bug Reports
+---
 
-Bug and/or error reports regarding MariaDB should be submitted at:
-https://jira.mariadb.org
+## Files in this scaffold commit
 
-For reporting security vulnerabilities, see our [security-policy](https://mariadb.org/about/security-policy/).
+- [`README.md`](README.md) — this file
+- [`LICENSE.md`](LICENSE.md) — UniCORE additions licence
+- [`STATUS.md`](STATUS.md) — scaffold-anchor status
+- [`UPSTREAM-MERGE-DISCIPLINE.md`](UPSTREAM-MERGE-DISCIPLINE.md) — canonical merge discipline
+- [`AI-AUTHORSHIP.md`](AI-AUTHORSHIP.md) — AI authorship disclosure
 
-The code for MariaDB, including all revision history, can be found at:
-https://github.com/MariaDB/server
+---
+
+## Related repositories — UniCORE programme
+
+**Foundation triad (gift, public, CC BY 4.0):**
+- [`UniVERSE`](https://github.com/bryanunitek/UniVERSE) — programme
+- [`TrueAI`](https://github.com/bryanunitek/TrueAI) — Foundation (Nine Invariants)
+- [`UniCORE-AI`](https://github.com/bryanunitek/UniCORE-AI) — reference architecture (12 Levels)
+
+**Implementation reference (deployment-shape pair):**
+- [`UniCORE`](https://github.com/bryanunitek/UniCORE) — on-prem-shape
+- [`UniSaaS.UniCORE`](https://github.com/bryanunitek/UniSaaS.UniCORE) — SaaS-shape
+
+**Substrate-services layer (deployment-shape pair):**
+- [`UniCORE.GVB`](https://github.com/bryanunitek/UniCORE.GVB) — on-prem-shape
+- [`UniSaaS.UniCORE.GVB`](https://github.com/bryanunitek/UniSaaS.UniCORE.GVB) — SaaS-shape
+
+---
+
+## Contact
+
+- **Public discussion:** [GitHub Discussions](https://github.com/bryanunitek/UniCORE.MariaDB/discussions)
+- **Private contact / connection request:** [LinkedIn — Bryan Fred](https://www.linkedin.com/in/bryan-fred-02209753/)
+
+---
+
+*Author: Bryan Fred, Unitek Systems Limited, Bedford, United Kingdom. Public. Given, not sold. Irrevocable.*
